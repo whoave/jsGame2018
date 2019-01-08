@@ -1,0 +1,190 @@
+/* reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+
+    background:url("../img/GUI/bodyBG2.png") repeat-x bottom,url("../img/GUI/bodyBG1.png");
+    background-size:auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clear{
+    clear:both;
+}
+/* ######################################################################################################### */
+/* ######################################################################################################### */
+
+/* 
+font-family: 'Concert One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Neucha', cursive; 
+font-family: 'Staatliches', cursive;
+   */
+
+
+/* Ana cerceve */
+#mainBorder{
+    margin: 0 auto;
+}
+
+/* Karakter Listesi Ana */
+#charList{
+    position:relative;
+    top:5px;
+    width:100%;
+    height:auto;
+}
+#charList p{
+    font-family: 'Neucha', cursive;
+}
+#charList h2{
+    color:gold;
+    text-shadow: 1px 1px gray;
+    font-family: 'Staatliches', cursive;
+}
+.champ{
+    position:relative;
+    opacity:0.6;
+    color: #fff;
+    width:255px;
+    float:left;
+    background:url("../img/GUI/charBG.png");
+    background-size: 255px 270px;
+    /* border:3px solid; */
+    /* border-image: url("../img/GUI/borderIMG.png") 200; */
+    text-align:center;
+}
+.champ p{
+    text-align:center;
+    padding-left:10px;
+    padding-right:10px;
+    text-shadow: 1px 1px gray;
+}
+.champ:hover{
+    opacity:1;
+}
+.champ img{
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+    border-bottom:3px solid;    
+    border-image: url("../img/GUI/barSecond.png") 30 round;
+
+}
+.champBorder{
+    width:auto;
+    height:150px;
+}
+.abilityGiris{
+    position:absolute;
+    bottom:0;
+    left:5%;
+    text-align:bottom;
+}
+
+
+/* Oyun Hakkında  */
+#oyunHakkinda{
+    color:goldenrod;
+    width:auto;
+    height:170px;
+    border:3px solid;
+    border-image: url("../img/GUI/barFirst.png") 51 round;
+    background:url("../img/GUI/infoBG.png");
+    margin-top:10px;
+    font-family: 'Concert One', cursive;
+}
+#oyunHakkinda h1{
+    color:gold;
+    margin-left:10px;
+    margin-top:10px;
+    letter-spacing:0.2em;
+    text-shadow: 2px 1px gray;
+    font-family: 'Luckiest Guy', cursive;
+}
+#oyunHakkinda p{
+    margin-left:20px;
+    margin-right:30px;
+
+
+}
+
+/* Footer Alanı */
+#footer{
+    width:auto;
+    height:60px;
+    margin-top:30px;
+    border:3px solid;
+    background:url("../img/GUI/infoBG.png");
+    border-image: url("../img/GUI/barFirst.png") 51 round;
+}
+#footer button{
+    color:#591D04;
+    text-shadow: 1px 1px #ccc;
+    font-family: 'Staatliches', cursive;
+    font-size:19pt;
+    padding-bottom:10px;
+    background:url("../img/GUI/TextBTN_Big.png");
+    background-size:100% 100%;
+    border: 0px;
+    width:35%;
+    height:100%;  
+    cursor: url('../img/GUI/pointer.png'), auto;
+    cursor:url('img/GUI/pointer.png') auto;
+}
+#footer #gameInfo{
+    color:white;
+    text-shadow: 1px 1px black;
+    position:relative;
+    float:left;
+    left:5%;
+    top:7px;
+    font-family: 'Luckiest Guy', cursive;
+}
+#gameInfo h1{font-size:17pt;text-align:center;}
+#gameInfo h2{font-size:small;color:green;text-align:center;}
+#gameInfo h3{font-size:smaller;text-align:center;}
+
+#footer button:hover{
+    opacity:0.8;
+}
+#footer #kayitOl{
+    float:left;
+}
+#footer #girisYap{
+    float:right;
+}
